@@ -1,2 +1,2 @@
 # AXIOM-PRACTICE
- to demonstrate simple java script
+ To execute skills
