@@ -18,7 +18,7 @@ function findMeals(e) {
     if( searchText.trim() ) {
         // If search text exists, then call the search API
         fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchText}`)
-            .then( res => res.json() ) 
+            .then( res => res.json() )
             .then( data => {
                 console.log(data);
                 // Display the search result heading
@@ -44,7 +44,7 @@ function findMeals(e) {
             })
     } else {
         // If search text does not exist, raise an alert asking user to enter text
-        alert('Please provide text for search'4);
+        alert('Please provide text for search');
     };
 };
 
