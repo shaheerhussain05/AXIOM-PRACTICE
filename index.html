@@ -4,25 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AXIOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Web Page</title>
 </head>
 <body>
-    <h1>MY PROJECTS</h1>
+    <!--Left Navigation-->
+    <nav>
+        <div class="logo">
+            <img src="Image.jpeg" alt="user">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <button class="toggle" id="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>AIM TO GROW</h1>
+        <p>This web page has been developed to enhance the programming skills.</p>
+       <!-- <button class="cta-btn" id="open">Sign Up</button>-->
+    </header> 
+
+    <!--Main content-->
+    <div class="container">
+    <h2>Introduction</h2>
+    <p>Shaheer is a student of Adamjee Government Science College.He is currently doing his HSC with pre-engineering while he is aiming to do computer science form well recognized university of the world.</p>
+
+    <h2>Learn More</h2>
+    <p>Shaheer is also a rising full stack developer and willing to be best in his field.</p>
+
+    <h2>Projects</h2>
+    <div class="projects">
     <ul>
-        <li><a href="project 1/index.html">Project 1 - SIGN UP FORM</a></li>
-        <li><a href="project 2/index.html">Project 2 - SEAT SELECTOR</a></li>
-        <li><a href="project 3/index.html">Project 3 - VIDEO PLAYER</a></li>
-        <li><a href="project 4/index.html">Project 4 - EXCHANGE RATE CALCULATOR</a></li>
-        <li><a href="project 5/index.html">Project 5 - HIGH ORDER ARRAY METHODS</a></li>
-        <li><a href="project 6/index.html">Project 6 - LANDING PAGE</a></li>
-        <li><a href="project 7/index.html">Project 7 - HANGMAN GAME</a></li>
-        <li><a href="project 8/index.html">Project 8 - MEAL GENERATOR</a></li>
-        <li><a href="project 9/index.html">Project 9 - EXPENSE TRACKER</a></li>
-        <li><a href="project 10/index.html">Project 10 - MUSIC PLAYER</a></li>
-        <li><a href="project 11/index.html">Project 11 - INFINITE SCROLLING</a></li>
-        <li><a href="project 12/index.html">Project 12 - TYPING GAMES</a></li>
-        <li><a href="project 13/index.html">Project 13 - MEMORY CARDS</a></li>
-        <li><a href="project 14/index.html">Project 14 - WEB SPEECH API</a></li>
-    </ul>
+        <li><a href="project 1/index.html">SIGN UP FORM</a></li>
+        <li><a href="project 2/index.html">SEAT SELECTOR</a></li>
+        <li><a href="project 3/index.html">VIDEO PLAYER</a></li>
+        <li><a href="project 4/index.html">EXCHANGE RATE CALCULATOR</a></li>
+        <li><a href="project 5/index.html">HIGH ORDER ARRAY METHODS</a></li>
+        <!--<li><a href="project 6/index.html">LANDING PAGE</a></li>-->
+        <li><a href="project 7/index.html">HANGMAN GAME</a></li>
+        <li><a href="project 8/index.html">MEAL GENERATOR</a></li>
+        <li><a href="project 9/index.html">EXPENSE TRACKER</a></li>
+        <!--<li><a href="project 10/index.html">MUSIC PLAYER</a></li>-->
+        <li><a href="project 11/index.html">INFINITE SCROLLING</a></li>
+        <li><a href="project 12/index.html">TYPING GAMES</a></li>
+       <!-- <li><a href="project 13/index.html">MEMORY CARDS</a></li>-->
+        <li><a href="project 14/index.html">WEB SPEECH API</a></li>
+    </ul>    
+    </div>
+
+
+    <p>A full stack web developer is a person who can develop both client and server software.</p>
+
+        <p>In addition to mastering HTML and CSS, he/she also knows how to:</p>
+    <ul>  
+    <li>Program a browser (like using JavaScript, jQuery, Angular, or Vue)</li>
+    <li>Program a server (like using PHP, ASP, Python, or Node)</li>
+    <li>Program a database (like using SQL, SQLite, or MongoDB)</li>
+</ul>  
+    <!--Modal-->
+   <!-- <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>-->
+          <!-- <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register for classes</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name"/>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email" />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" />
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Confirm Password" />
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+ <   </div>
+    </div>>--> 
+    <script src="script.js"></script>
 </body>
 </html>
